@@ -98,3 +98,23 @@ input {
   color: #ffffff;
 }
 /* task-4 */
+/* task-5 */
+.widget {
+  display: block;
+  text-align: center;
+}
+.change-color {
+  width: 360px;
+  height: 40px;
+  border-radius: 8px;
+  background: #4e75ff;
+  border: none;
+  color: #ffffff;
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+}
+
+/* task-5 */

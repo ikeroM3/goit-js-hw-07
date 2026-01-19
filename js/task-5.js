@@ -7,9 +7,8 @@ btn.addEventListener("click", (event) => {
       .toString(16)
       .padStart(6, 0)}`;
   }
-  console.log(event);
+  const color = getRandomHexColor();
 
-  out.textContent = getRandomHexColor();
-  return (body.style.backgroundColor = getRandomHexColor());
+  out.textContent = color;
+  body.style.backgroundColor = color;
 });
-console.log(body);
